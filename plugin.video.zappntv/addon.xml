@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.zappntv" name="Zappn TV" version="1.3.9+matrix.1" provider-name="fayer3,michaz">
+<addon id="plugin.video.zappntv" name="Zappn TV" version="1.4.0+matrix.1" provider-name="fayer3,michaz">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.routing" version="0.2.3+matrix.1"/>
@@ -50,8 +50,10 @@
 - VOD fix
 1.3.8:
 - VOD fix
-1.3.8:
+1.3.9:
 - Code fixes
+1.4.0:
+- use concurrent.futures instead of multiprocessing
 </news>
         <assets>
             <icon>resources/icon.png</icon>

@@ -69,3 +69,7 @@ v1.3.5:
 - VOD fix
 1.3.8:
 - VOD fix
+1.3.9:
+- Code fixes
+1.4.0:
+- use concurrent.futures instead of multiprocessing
