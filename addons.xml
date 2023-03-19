@@ -524,7 +524,7 @@ Xship 2021.07.01
 </addon>
 
 <addon id="plugin.video.xstreamScraper"
-version="0.2"
+version="0.3"
 name="xstreamScraper"
 provider-name="jurialmunkey, michaz1988">
 <requires>
@@ -574,5 +574,39 @@ provider-name="jurialmunkey, michaz1988">
 			<fanart>fanart.jpg</fanart>
 		</assets>
 	</extension>
+</addon>
+
+<addon id="script.module.infotagger" name="InfoTagger" provider-name="jurialmunkey" version="0.0.5">
+  <requires>
+    <import addon="xbmc.python" version="3.0.1"/>
+  </requires>
+  <extension point="xbmc.python.module" library="resources/modules" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en_GB">Python wrapper for setInfo on Nexus InfoTags</summary>
+    <description lang="en_GB">Python wrapper for setInfo on Nexus InfoTags</description>
+    <license>GPL-3.0-or-later</license>
+    <website>https://github.com/jurialmunkey/script.module.infotagger</website>
+    <source>https://github.com/jurialmunkey/script.module.infotagger</source>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+
+</addon>
+
+<addon id="script.module.tmdbhelper" name="TMDbHelper Common" provider-name="jurialmunkey" version="0.0.8">
+  <extension point="xbmc.python.module" library="resources/modules" />
+  <extension point="xbmc.addon.metadata">
+    <description lang="en">Common code required by TMDbHelper and other related jurialmunkey add-ons</description>
+    <reuselanguageinvoker>false</reuselanguageinvoker>
+    <license></license>
+    <language></language>
+    <website></website>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
 </addon>
 </addons>
