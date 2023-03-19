@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="repository.michaz" name="Michaz Repository" provider-name="Michaz" version="3.1">
+<addon id="repository.michaz" name="Michaz Repository" provider-name="Michaz" version="3.1.1">
   <extension point="xbmc.addon.repository" name="Michaz Repository">
     <dir>
       <info compressed="false">https://raw.githubusercontent.com/michaz1988/repo/master/addons.xml</info>
@@ -560,7 +560,7 @@ provider-name="jurialmunkey, michaz1988">
 </extension>
 </addon>
 
-<addon id="script.module.xstream" name="xStream Scraper Helper" provider-name="michaz1988" version="0.0.3">
+<addon id="script.module.xstream" name="xStream Scraper Helper" provider-name="michaz1988" version="0.0.4">
 	<requires>
 		<import addon="script.module.six" version="1.11.0"/>
 		<import addon="script.module.requests"/>
