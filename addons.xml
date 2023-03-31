@@ -218,7 +218,7 @@
     </extension>
 </addon>
 
-<addon id="script.module.xstream" name="xStream Scraper" provider-name="michaz1988" version="0.0.6">
+<addon id="script.module.xstream" name="xStream Scraper" provider-name="michaz1988" version="0.0.8">
 	<requires>
         <import addon="script.module.requests"/>
         <import addon="script.module.six"/>
@@ -227,7 +227,9 @@
         <!-- for remote debug -->
         <import addon="script.module.pydevd" optional="true"/>
     </requires>
-    <extension point="xbmc.python.pluginsource" library="main.py"/>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
     <extension point="xbmc.addon.metadata">
         <assets>
             <icon>icon.png</icon>
