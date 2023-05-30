@@ -224,7 +224,7 @@
     </extension>
 </addon>
 
-<addon id="script.module.xstream" name="xStream Scraper" provider-name="michaz1988" version="0.1.2.2">
+<addon id="script.module.xstream" name="xStream Scraper" provider-name="michaz1988" version="0.1.2.3">
 	<requires>
         <import addon="script.module.requests"/>
         <import addon="script.module.six"/>
@@ -370,7 +370,7 @@ Xship 2021.07.01
     </extension>
 </addon>
 
-<addon id="plugin.video.vavooto" name="VAVOO.TO" version="5.8.4" provider-name="kasi,michaz">
+<addon id="plugin.video.vavooto" name="VAVOO.TO" version="5.8.5" provider-name="kasi,michaz">
     <requires>
         <import addon="script.module.requests"/>
         <import addon="inputstream.ffmpegdirect" optional="true" />
